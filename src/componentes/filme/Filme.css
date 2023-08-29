@@ -1,0 +1,10 @@
+.filme-content{
+    min-width: 300px;
+    min-height: 200px;
+    background-color: rgb(163, 163, 241);
+}
+
+.filme-content.img{
+width: 100%;
+height: auto;
+}
