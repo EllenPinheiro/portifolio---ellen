@@ -1,9 +1,10 @@
 footer{
-    margin-top: 1000px;
-    background-color: pink;
+    margin-top: 100px;
+    background-color: rgb(204, 188, 191);
     height: 600px;
     display: flex;
     bottom: 0;
+    position: relative;
 }
 
 
@@ -36,7 +37,7 @@ cursor: pointer;
 }
 
 .p1{
-    color: rgb(241, 123, 178);
+    color: rgb(90, 69, 75);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     margin-bottom: 80px;
@@ -60,7 +61,7 @@ a{
     font-size: 18px;
 }
 a:hover{
-    color: palevioletred;
+    color: rgb(82, 74, 76);
 }
 
 .redes-sociais{
@@ -68,7 +69,7 @@ a:hover{
 }
 
 p{
-    color: hotpink;
+    color: rgb(82, 74, 76);
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     }

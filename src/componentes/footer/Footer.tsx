@@ -1,5 +1,5 @@
 import './Footer.css';
-import BarbieLogo from '..//img/Barbie_Logo.svg.png';
+import EllenLogo from '..//img/ellen-logo.png';
 import faceLogo from '..//img/facebook.png';
 import instaLogo from '..//img/instagram.png';
 import ttLogo from '..//img/twitter.png';
@@ -9,8 +9,8 @@ function Footer(){
   return(
     <footer className="rodape">
       <div className='bloco1'>
-        <img className="logo" src={BarbieLogo} alt="Barbie Logo" />
-        <p className='p1'>Aqui no site da Barbie, você pode ser o que quiser! <br />Aproveite o mundo mágico de novidades da Barbie. <br /> Vem ser rosa com a gente!</p>
+        <img className="logo" src={EllenLogo} alt="Ellen Logo" />
+        <p className='p1'>Aqui no site da Ellen, você encontra tudo sobre mim!</p>
         <div className='redes-sociais'>
             <img className='face' src={faceLogo} alt="facebook" />
             <img className='insta' src={instaLogo} alt="instagram" />
@@ -41,7 +41,7 @@ function Footer(){
 
       <div className='bloco4'>
        <p>História</p>
-       <a href="#">Tudo sobre a Barbie</a>
+       <a href="#">Tudo sobre mim</a>
        <a href="#">Linha do Tempo</a>
        <a href="#">Sobre nós</a>
        <a href="#"></a>

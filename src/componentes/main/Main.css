@@ -1,0 +1,22 @@
+.main-content{
+    display: flex;
+}
+
+
+.fotoellenlinda img{
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 500px;
+    height: auto;
+}
+
+.sobre-mim p{
+    color: gray;
+    margin-top: 250px;
+    font-size: 30px;
+}
+
+.portfolio img{
+    margin-top: 50px;
+    width: 180px;
+}
