@@ -1,5 +1,7 @@
 .main-content{
     display: flex;
+    background-color: rgb(209, 214, 212);
+    padding-bottom: 100px;
 }
 
 
@@ -20,3 +22,24 @@
     margin-top: 50px;
     width: 180px;
 }
+
+.content-fotos{
+    background-color: rgb(209, 214, 212);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.content-fotos img{
+    height: 800px;
+    margin-right: 40px;
+    width: auto;
+}
+
+.content-fotos img:hover{
+    box-shadow: 10px 10px 10px gray;
+    transform: scale(1.05);
+    transition: 1s;
+}
+
