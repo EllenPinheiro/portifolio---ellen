@@ -12,10 +12,16 @@
     height: auto;
 }
 
-.sobre-mim p{
+.text-sobremim{
     color: gray;
-    margin-top: 250px;
+    margin-top: 20px;
     font-size: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.titulo-sobremim{
+    margin-top: 280px;
+    margin-left: 100px;
 }
 
 .portfolio img{
@@ -32,7 +38,7 @@
 }
 
 .content-fotos img{
-    height: 800px;
+    height: 600px;
     margin-right: 40px;
     width: auto;
 }
