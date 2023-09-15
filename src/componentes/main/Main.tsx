@@ -19,7 +19,7 @@ function Main(){
 <img src={Portfolio} alt=""></img>
 </div>
          <div className='sobre-mim'>
-            <p className='titulo-sobremim'>SOBRE MIM</p>
+            <p className='titulo-sobremim'>QUEM SOU EU?</p>
             <p className='text-sobremim'> Eu me chamo Ellen Vasconcelos Pinheiro,
 tenho 18 anos e <br /> atualmente estou terminando o 3º ano do ensino médio, <br />no curso de Técnico em Informática para Internet no IFMS. <br />
 Moro na cidade de Naviraí-MS, com os meus pais e minhas <br />duas irmãs mais novas. Namoro faz 3 anos com meu namorado <br /> lindo Jonas.

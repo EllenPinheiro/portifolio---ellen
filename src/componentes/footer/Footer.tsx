@@ -10,7 +10,9 @@ function Footer(){
     <footer className="rodape">
       <div className='bloco1'>
         <img className="logo" src={EllenLogo} alt="Ellen Logo" />
-        <p className='p1'>Aqui no site da Ellen, você encontra tudo sobre mim!</p>
+        <p className='p1'>Aqui no site da Ellen, você encontra tudo sobre mim! <br />
+        Portfólio da Ellen - Conhecimento em Destaque. <br />
+        Do Aprendizado à Excelência, com Ellen você encontra!</p>
         <div className='redes-sociais'>
             <img className='face' src={faceLogo} alt="facebook" />
             <img className='insta' src={instaLogo} alt="instagram" />
@@ -24,27 +26,25 @@ function Footer(){
 
       <div className='bloco-links'>
       <div className='bloco2'>
-       <p>Produtos</p>
-       <a href="#">Lojas Físicas</a>
-       <a href="#">Sites Parceiros</a>
-       <a href="#">Lançamentos</a>
-       <a href="#">Seção Colecionador</a>
+       <p>Projetos</p>
+       <a href="#">Protótipos Figma</a>
+       <a href="#">Sites</a>
+       <a href="#">Softwares</a>
+       <a href="#">Seção Desenvolvimento</a>
       </div>
 
       <div className='bloco3'>
-      <p>Entretenimento</p>
-       <a href="#">Músicas</a>
-       <a href="#">Filmes</a>
-       <a href="#">Jogos</a>
-       <a href="#">Vídeos Especiais</a>
+      <p>Contatos</p>
+       <a href="#">Email</a>
+       <a href="#">Caixa Postal</a>
+       <a href="#">Parcerias</a>
       </div>
 
       <div className='bloco4'>
        <p>História</p>
        <a href="#">Tudo sobre mim</a>
        <a href="#">Linha do Tempo</a>
-       <a href="#">Sobre nós</a>
-       <a href="#"></a>
+       <a href="#">Sobre a empresa</a>
       </div>
       </div>
 
