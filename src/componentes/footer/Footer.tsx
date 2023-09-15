@@ -10,7 +10,7 @@ function Footer(){
     <footer className="rodape">
       <div className='bloco1'>
         <img className="logo" src={EllenLogo} alt="Ellen Logo" />
-        <p className='p1'>Portfólio da Ellen - Conhecimento em Destaque. <br>
+        <p className='p1'>Portfólio da Ellen - Conhecimento em Destaque. <br/>
         Do Aprendizado à Excelência, com Ellen você encontra!</p>
         <div className='redes-sociais'>
             <img className='face' src={faceLogo} alt="facebook" />
