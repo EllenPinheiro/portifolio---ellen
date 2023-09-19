@@ -57,16 +57,27 @@
 }
 .campo_pesquisa{
     padding: 15px 100px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
 }
+
 .botao_pesquisa{
     height: 30px;
+    width: 400px;
     border: 1px solid #f0f0f0;
     border-radius: 5px;
-
+    margin-left: 20px;
+    box-direction: none;
 }
 .botao_pesquisa:focus {
-    outline: 1px solid rgb(138, 157, 255);  
+    outline: 1px solid rgb(91, 80, 84);  
    }
 .botao_pesquisa.visited {
     outline: 1px solid rgb(138, 157, 255);   
+}
+
+.lupa{
+    width: 35px;
 }

@@ -22,21 +22,33 @@ export default function Main(){
         {
             id:1,
             titulo:'Projeto de Ensino - Prática no Desenvolvimento de Software',
-            descricao:"Este projeto de ensino, orientado pelo professor Nicholas Eduardo Lopes dos Santos, onde atuei como integrante no desenvolvimento de um software para gerenciamento da FECINAVI, a Feira de Ciências e Tecnologia de Naviraí. Neste projeto, desenvolvi meu TCC, com um estudo de caso a respeito do Emprego do Método Ordinal Multicritério para Determinação do Ranqueamento dos Trabalhos Científico da Feira de Ciências de Naviraí utilizando um algoritmo programado por mim, que aplica o Método de Copeland",
+            descricao:"Este projeto de ensino, orientado pelo professor Nicholas Eduardo Lopes dos Santos, onde atuei como integrante no desenvolvimento de um software para gerenciamento da FECINAVI, a Feira de Ciências e Tecnologia de Naviraí. Neste projeto, desenvolvi meu TCC, com um estudo de caso a respeito do Emprego do Método Ordinal Multicritério para Determinação do Ranqueamento dos Trabalhos Científico da Feira de Ciências de Naviraí utilizando um algoritmo programado por mim, que aplica o Método de Copeland.",
             imagem:'/projeto-fecinavi.png'
         },
         {
             id:2,
-            titulo:'Barbie Live Action',
-            descricao:'No fabuloso live-action da boneca mais famosa do mundo, acompanhamos o dia a dia em Barbieland - o mundo mágico das Barbies, onde todas as versões da boneca vivem em completa harmonia e suas únicas preocupações são encontrar as melhores roupas para passear com as amigas e curtir intermináveis festas.',
-            imagem:'/barbie (1).png'
+            titulo:'Navitrine',
+            descricao:'Protótipo de Software de Vitrine Digital para o Comércio do Setor de Moda de Naviraí, desenvolvido em algumas matérias do curso técnico de Informática. Inclui os protótipos de tela de média fidelidade e a programação do site no ambiente Replit.',
+            imagem:'/navitrine.png'
         },
         {
           id:3,
-          titulo:'Barbie Escola de Princesas',
-          descricao:'Blair é uma garota simples e órfã que foi sorteada para estudar na exclusiva Escola de Princesas. A escola é um lugar incrível, onde as meninas aprendem dança, etiqueta, arte e outras habilidades indispensáveis a uma princesa. Blair adora suas aulas, suas novas fadinhas assistentes e suas novas amigas, as princesas Hadley e Isla. Porém, quando a malvada Dama Devin desconfia que Blair é a princesa e herdeira desaparecida, ela faz de tudo para impedir que Blair assuma o trono.',
-          imagem:'/BarbieEscola.jpg'
-      }
+          titulo:'Protótipo de Site - Pet Shop Amor de Pet',
+          descricao:'Este trabalho foi desenvolvido na matéria de Fundamentos de Projeto de Interface Gráfica, como um layout para o website de um pet shop, utilizando a ferramenta Figma.',
+          imagem:'/amordepet.png'
+      },
+      {
+        id:4,
+        titulo:'Protótipo de Site - GAVECH',
+        descricao:'O GAVECH, foi um trabalho em grupo na matéria de Fundamentos de Projeto de Interface Gráfica, no qual desenvolvemos wirwframes de média e alta fidelidade com o tema de vestuário, utilizando a ferramenta Figma.',
+        imagem:'/gavech.png'
+    },
+    {
+      id:5,
+      titulo:'Receitas da Ellen',
+      descricao:'O receitas da Ellen, trabalho de minha autoria exclusiva, compreende um trabalho desenvolvido em diversas matérias no curso, onde eu pude explorar desde a prototipação dos wireframes até a programação do site, especialmente na linguagem JavaScript.',
+      imagem:'/receitas da ellen.png'
+  },
     ]
   
       //O parâmetro "e" da minha função será o meu evento que ocorreu
@@ -78,9 +90,9 @@ Sou uma garota cristã, otimista, dedicada, sonhadora,<br /> extrovertida e esto
                        className='botao_pesquisa'
                        placeholder='Pesquise um Filme'
                        onChange={TrataTexto} />
+                </div>
                 <div>
                        <img className='lupa' src={Lupa} alt="" />
-                </div>
                 </div>
                 {texto && <p className='text-resultados'>Exibindo resultados para: {texto} </p>}
             </div>
