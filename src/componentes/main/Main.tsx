@@ -21,9 +21,9 @@ export default function Main(){
     const projetos:ProjetoType[] = [
         {
             id:1,
-            titulo:'Barbie Moda e Magia',
-            descricao:"Em um conto de fadas fashion, Barbie é demitida do seu emprego, cai num golpe e decide viajar a Paris para salvar o ateliê de moda da sua tia, que está prestes a ser fechado.",
-            imagem:'/barbie_modaemagia.jpg'
+            titulo:'Projeto de Ensino - Prática no Desenvolvimento de Software',
+            descricao:"Este projeto de ensino, orientado pelo professor Nicholas Eduardo Lopes dos Santos, onde atuei como integrante no desenvolvimento de um software para gerenciamento da FECINAVI, a Feira de Ciências e Tecnologia de Naviraí. Neste projeto, desenvolvi meu TCC, com um estudo de caso a respeito do Emprego do Método Ordinal Multicritério para Determinação do Ranqueamento dos Trabalhos Científico da Feira de Ciências de Naviraí utilizando um algoritmo programado por mim, que aplica o Método de Copeland",
+            imagem:'/projeto-fecinavi.png'
         },
         {
             id:2,
@@ -36,37 +36,7 @@ export default function Main(){
           titulo:'Barbie Escola de Princesas',
           descricao:'Blair é uma garota simples e órfã que foi sorteada para estudar na exclusiva Escola de Princesas. A escola é um lugar incrível, onde as meninas aprendem dança, etiqueta, arte e outras habilidades indispensáveis a uma princesa. Blair adora suas aulas, suas novas fadinhas assistentes e suas novas amigas, as princesas Hadley e Isla. Porém, quando a malvada Dama Devin desconfia que Blair é a princesa e herdeira desaparecida, ela faz de tudo para impedir que Blair assuma o trono.',
           imagem:'/BarbieEscola.jpg'
-      },
-      {
-        id:4,
-        titulo:'Barbie e o Castelo de Diamante',
-        descricao:'Liana e Alexa saem da sua cabana humilde para vender flores na vila e acabam conhecendo Melody, a guardiã do Castelo de Diamante. As duas decidem ajudá-la a impedir que a chave do castelo seja roubada por Lídia, uma musa egoísta.',
-        imagem:'/barbieCasteloDiamante.png'
-    },
-    {
-      id:5,
-      titulo:'Barbie Segredo das Fadas',
-      descricao:'Mundos mágicos, fadas e cavalos voadores são alguns dos elementos encontrados neste filme da Barbie. Ela precisa viajar a um mundo encantado para salvar Ken. Nesta aventura, serão revelados segredos e algumas amizades serão testadas.',
-      imagem:'/Barbie_Fairy_Secret.png'
-  },
-  {
-    id:6,
-    titulo:'Barbie - A Sereia das Pérolas',
-    descricao:'Barbie é Lumina uma linda sereia, que sonha em ser uma princesa. Desde pequena, Lumina tem um poder mágico de fazer as pérolas mudarem a cor, dançarem e brilharem.',
-    imagem:'/barbieSereiaPerolas.jpg'
-  },
-  {
-    id:7,
-    titulo:'Barbie e as Sapatilhas Mágicas',
-    descricao:'Kristyn e Hailey vão parar em um mundo mágico do balé dominado pela diabólica Rainha das Neves. As duas bailarinas dançam seus balés favoritos para derrotar a rainha e realizar seus sonhos.',
-    imagem:'/barbie-sapatilhasmagicas.png'
-  },
-  {
-    id:8,
-    titulo:'Barbie em Vida de Sereia',
-    descricao:'Barbie é uma campeã de surfe que vive com sua família em Malibu. Um dia, ela descobre um segredo de família: ela é uma sereia. Sua mãe, a rainha de Oceana, está em perigo e ela parte numa grande aventura no fundo do mar para salvá-la.',
-    imagem:'/barbieEm_vidadesereia.jpg'
-  }
+      }
     ]
   
       //O parâmetro "e" da minha função será o meu evento que ocorreu
@@ -102,7 +72,7 @@ Sou uma garota cristã, otimista, dedicada, sonhadora,<br /> extrovertida e esto
         </div>
 </div>
             <div className="campo_pesquisa">
-                <p>Busque um filme:</p>
+                <p>Busque um projeto:</p>
                 <div className='quadradinho'>
                 <input type="text" 
                        className='botao_pesquisa'
