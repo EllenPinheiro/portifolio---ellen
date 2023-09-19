@@ -77,6 +77,30 @@ export default function Main(){
       }
     return (
         <>
+        <div className='content-all'>
+        <div className='content-fotos'>
+            <img src={Ellen1} alt=""></img>
+            <img src={Ellen2} alt=""></img>
+            <img src={Ellen3} alt=""></img>
+        </div>
+
+<div className="main-content">
+            <div className='portfolio'>
+<img src={Portfolio} alt=""></img>
+</div>
+         <div className='sobre-mim'>
+            <p className='titulo-sobremim'>QUEM SOU EU?</p>
+            <p className='text-sobremim'> Eu me chamo Ellen Vasconcelos Pinheiro,
+tenho 18 anos e <br /> atualmente estou terminando o 3º ano do ensino médio, <br />no curso de Técnico em Informática para Internet no IFMS. <br />
+Moro na cidade de Naviraí-MS, com os meus pais e minhas <br />duas irmãs mais novas. Namoro faz 3 anos com meu namorado <br /> lindo Jonas.
+Sou uma garota cristã, otimista, dedicada, sonhadora,<br /> extrovertida e estou em constante busca pela felicidade, louvar e <br />adorar meu Senhor Jesus. Eu sonho em ter o meu emprego dos <br /> sonhos, formar uma família e viajar o mundo!</p>
+</div>
+
+<div className='fotoellenlinda'>
+    <img  src={EllenLinda} alt="Eu"></img>
+    </div>
+        </div>
+</div>
             <div className="campo_pesquisa">
                 <p>Busque um filme:</p>
                 <div className='quadradinho'>
@@ -92,25 +116,16 @@ export default function Main(){
             </div>
             <main className="content-main">
 
-            {filmes.filter((filme) => {
+            {projetos.filter((projeto) => {
     const textoSemEspacos = texto.replace(/\s/g, ''); // Remove espaços em branco do texto
-<<<<<<< HEAD
     const tituloSemEspacos = projeto.titulo.replace(/\s/g, ''); // Remove espaços em branco do título do projeto
-=======
-    const tituloSemEspacos = filme.titulo.replace(/\s/g, ''); // Remove espaços em branco do título do filme
->>>>>>> b0c8fea1fc36c00c849fbb930a9ae0c7d59fb4b7
     return tituloSemEspacos.toLowerCase().includes(textoSemEspacos.toLowerCase());
                      })
-                     .map((filme) => (
-                     <Filme key={filme.id} titulo={filme.titulo} sinopse={filme.sinopse} imagem={filme.imagem} />
+                     .map((projeto) => (
+                     <Projeto key={projeto.id} titulo={projeto.titulo} descricao={projeto.descricao} imagem={projeto.imagem} />
                      ))}
 
       </main>
     </>
   )
 }
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> b0c8fea1fc36c00c849fbb930a9ae0c7d59fb4b7
