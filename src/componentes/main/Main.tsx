@@ -77,6 +77,7 @@ export default function Main(){
       }
     return (
         <>
+<<<<<<< HEAD
         <div className='content-all'>
 <div className='content-fotos'>
     <img src={Ellen1} alt=""></img>
@@ -101,6 +102,8 @@ Sou uma garota cristã, otimista, dedicada, sonhadora,<br /> extrovertida e esto
 </div>
 </div>
 </div>
+=======
+>>>>>>> b0c8fea1fc36c00c849fbb930a9ae0c7d59fb4b7
             <div className="campo_pesquisa">
                 <p>Busque um filme:</p>
                 <div className='quadradinho'>
@@ -116,17 +119,25 @@ Sou uma garota cristã, otimista, dedicada, sonhadora,<br /> extrovertida e esto
             </div>
             <main className="content-main">
 
-            {projetos.filter((projeto) => {
+            {filmes.filter((filme) => {
     const textoSemEspacos = texto.replace(/\s/g, ''); // Remove espaços em branco do texto
+<<<<<<< HEAD
     const tituloSemEspacos = projeto.titulo.replace(/\s/g, ''); // Remove espaços em branco do título do projeto
+=======
+    const tituloSemEspacos = filme.titulo.replace(/\s/g, ''); // Remove espaços em branco do título do filme
+>>>>>>> b0c8fea1fc36c00c849fbb930a9ae0c7d59fb4b7
     return tituloSemEspacos.toLowerCase().includes(textoSemEspacos.toLowerCase());
                      })
-                     .map((projeto) => (
-                     <Projeto key={projeto.id} titulo={projeto.titulo} descricao={projeto.descricao} imagem={projeto.imagem} />
+                     .map((filme) => (
+                     <Filme key={filme.id} titulo={filme.titulo} sinopse={filme.sinopse} imagem={filme.imagem} />
                      ))}
 
       </main>
     </>
   )
 }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> b0c8fea1fc36c00c849fbb930a9ae0c7d59fb4b7
