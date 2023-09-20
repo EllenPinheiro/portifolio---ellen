@@ -7,8 +7,8 @@ export default function Projeto(props:ProjetoProps){
          </div>
            
             <div className="text-projeto">
-                <h1>{props.titulo}</h1>
-                <p className="sinopse">{props.descricao}</p>
+                <h1 className='titulo-projeto'>{props.titulo}</h1>
+                <p className="descricao">{props.descricao}</p>
             </div>
         </div>
     )

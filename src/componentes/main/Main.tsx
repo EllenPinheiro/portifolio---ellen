@@ -33,14 +33,14 @@ export default function Main(){
         },
         {
           id:3,
-          titulo:'Protótipo de Site - Pet Shop Amor de Pet',
+          titulo:'Pet Shop Amor de Pet',
           descricao:'Este trabalho foi desenvolvido na matéria de Fundamentos de Projeto de Interface Gráfica, como um layout para o website de um pet shop, utilizando a ferramenta Figma.',
           imagem:'/amordepet.png'
       },
       {
         id:4,
-        titulo:'Protótipo de Site - GAVECH',
-        descricao:'O GAVECH, foi um trabalho em grupo na matéria de Fundamentos de Projeto de Interface Gráfica, no qual desenvolvemos wirwframes de média e alta fidelidade com o tema de vestuário, utilizando a ferramenta Figma.',
+        titulo:'GAVECH',
+        descricao:'O GAVECH, é um protótipo de site, um trabalho em grupo na matéria de Fundamentos de Projeto de Interface Gráfica, no qual desenvolvemos wirwframes de média e alta fidelidade com o tema de vestuário, utilizando a ferramenta Figma.',
         imagem:'/gavech.png'
     },
     {
@@ -49,6 +49,24 @@ export default function Main(){
       descricao:'O receitas da Ellen, trabalho de minha autoria exclusiva, compreende um trabalho desenvolvido em diversas matérias no curso, onde eu pude explorar desde a prototipação dos wireframes até a programação do site, especialmente na linguagem JavaScript.',
       imagem:'/receitas da ellen.png'
   },
+  {
+    id:6,
+    titulo:'Len Play',
+    descricao:'Ao longo do curso técnico do IFMS fiz trabalhei muito com o desenvolvimento de sites de streaming e este layout foi um dos primeiros que desenvolvi no ambiente Figma.',
+    imagem:'/lenplay.png'
+},
+{
+  id:7,
+  titulo:'Moodboard',
+  descricao:'Na matéria de ferramentas de desenho no curso, desenvolvi meu moodboard, meu manual de identidade visual, aplicando conceitos de arquétipo. Este trabalho contou com a ideação de uma logo.',
+  imagem:'/moodboard.png'
+},
+{
+  id:8,
+  titulo:'Jogo da Memória Ecoconsciente',
+  descricao:'Trabalho em grupo desenvolvido na matéria de biologia, onde tivemos que desenvolver um jogo utilizando ferramentas de informática. Realizamos um jogo da memória projetado inicialmente no Figma e depois projetado para confeccioná-lo na CNC Laser Laboratório Maker do IFMS.',
+  imagem:'/memoria.png'
+}
     ]
   
       //O parâmetro "e" da minha função será o meu evento que ocorreu
@@ -75,7 +93,8 @@ export default function Main(){
             <p className='text-sobremim'> Eu me chamo Ellen Vasconcelos Pinheiro,
 tenho 18 anos e <br /> atualmente estou terminando o 3º ano do ensino médio, <br />no curso de Técnico em Informática para Internet no IFMS. <br />
 Moro na cidade de Naviraí-MS, com os meus pais e minhas <br />duas irmãs mais novas. Namoro faz 3 anos com meu namorado <br /> lindo Jonas.
-Sou uma garota cristã, otimista, dedicada, sonhadora,<br /> extrovertida e estou em constante busca pela felicidade, louvar e <br />adorar meu Senhor Jesus. Eu sonho em ter o meu emprego dos <br /> sonhos, formar uma família e viajar o mundo!</p>
+Sou uma garota cristã, otimista, dedicada, sonhadora,<br /> extrovertida e estou em constante busca pela felicidade, louvar e <br />adorar meu Senhor Jesus. Eu sonho em ter o meu emprego dos <br /> sonhos, formar uma família e viajar o mundo! <br />
+Atualmente tenho a aspiração de trabalhar com a área <br /> da informática e quero fazer faculdade de engenharia da computação.</p>
 </div>
 
 <div className='fotoellenlinda'>
@@ -83,18 +102,24 @@ Sou uma garota cristã, otimista, dedicada, sonhadora,<br /> extrovertida e esto
     </div>
         </div>
 </div>
+<h1>Alguns dos meus projetos:</h1>
             <div className="campo_pesquisa">
                 <p>Busque um projeto:</p>
                 <div className='quadradinho'>
                 <input type="text" 
                        className='botao_pesquisa'
-                       placeholder='Pesquise um Filme'
+                       placeholder='Qual projeto você deseja procurar?'
                        onChange={TrataTexto} />
                 </div>
                 <div>
                        <img className='lupa' src={Lupa} alt="" />
                 </div>
-                {texto && <p className='text-resultados'>Exibindo resultados para: {texto} </p>}
+            </div>
+            <div className='exibindo'>
+            {texto && <p className='text-resultados'>Exibindo resultados para: </p>}
+            </div>
+            <div className='resultados'>
+            {texto}
             </div>
             <main className="content-main">
 
@@ -108,6 +133,26 @@ Sou uma garota cristã, otimista, dedicada, sonhadora,<br /> extrovertida e esto
                      ))}
 
       </main>
+
+      <main>
+        <h1>Viagens IFMS</h1>
+
+  <div className='bloco-viagem-fortaleza'>
+    <div className='slider'>
+      <img className='selected' src={} alt="" />
+      <img src={} alt="" />
+      <img src={} alt="" />
+      <img src={} alt="" />
+      <img src={} alt="" />
+      <img src={} alt="" />
+    </div>
+  </div>
+
+      
+
+
+</main>
+      
     </>
   )
 }
