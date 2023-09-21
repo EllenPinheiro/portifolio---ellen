@@ -116,6 +116,7 @@ justify-content: center;
 .viagem:hover{
     transform: scale(1.05);
     transition: 1s;
+    box-shadow: 10px 10px 10px gray;
 }
 
 .titulo-projetoss{
