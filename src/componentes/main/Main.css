@@ -113,6 +113,11 @@ justify-content: center;
     width: 600px;
     margin-right: 50px;
 }
+.viagem:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
 .titulo-projetoss{
     display: flex;
     justify-content: center;
