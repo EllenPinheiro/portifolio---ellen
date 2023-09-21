@@ -4,12 +4,8 @@ import EllenLinda from '..//img/ellen-linda (1).jpeg'
 import Ellen1 from '..//img/ellen-linda (2).jpeg'
 import Ellen2 from '..//img/WhatsApp Image 2023-08-30 at 08.00.55.jpeg'
 import Ellen3 from '..//img/ellen-linda (3).jpeg'
-import aviao from '..//img/aviao.jpg'
-import aero from '..//img/aero.jpg'
-import amigos1 from '..//img/amigos1.jpg'
-import amigos2 from '..//img/amigos2.jpg'
-import campusfort from '..//img/campusfort.jpg'
-import praia from '..//img/praia.jpg'
+import fortaleza from '..//img/fortaleza.png'
+import foz from '..//img/foz.png'
 import Portfolio from '..//img/portfolio-removebg-preview.png'
 import Projeto from './../projetos/Projeto'
 import Lupa from '..//img/download.png'
@@ -108,7 +104,9 @@ Atualmente tenho a aspiração de trabalhar com a área <br /> da informática e
     </div>
         </div>
 </div>
+<div className='titulo-projetos'>
 <h1>Alguns dos meus projetos:</h1>
+</div>
             <div className="campo_pesquisa">
                 <p>Busque um projeto:</p>
                 <div className='quadradinho'>
@@ -139,26 +137,15 @@ Atualmente tenho a aspiração de trabalhar com a área <br /> da informática e
                      ))}
 
       </main>
-
       <main>
-        <h1>Viagens IFMS</h1>
-
-  <div className='bloco-viagem-fortaleza'>
-    <div className='slider'>
-      <img className='selected' src={amigos1} alt="" />
-      <img src={aviao} alt="" />
-      <img src={campusfort} alt="" />
-      <img src={aero} alt="" />
-      <img src={amigos2} alt="" />
-      <img src={praia} alt="" />
-    </div>
-  </div>
-
-      
-
-
+        <h1 className='titulo-projetoss'>Viagens IFMS</h1>
+        <div className='blocoviagem'>
+ <div><img className='viagem' src={fortaleza} alt="" /></div>
+ <div><img className='viagem' src={foz} alt="" /></div>
+ </div>
 </main>
-      
+
     </>
+    
   )
 }
