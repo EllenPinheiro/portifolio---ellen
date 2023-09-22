@@ -108,11 +108,10 @@ Atualmente tenho a aspiração de trabalhar com a área <br /> da informática e
 <h1>Alguns dos meus projetos:</h1>
 </div>
             <div className="campo_pesquisa">
-                <p>Busque um projeto:</p>
                 <div className='quadradinho'>
                 <input type="text" 
                        className='botao_pesquisa'
-                       placeholder='Qual projeto você deseja procurar?'
+                       placeholder='  Qual projeto você deseja procurar?'
                        onChange={TrataTexto} />
                 </div>
                 <div>
@@ -139,9 +138,21 @@ Atualmente tenho a aspiração de trabalhar com a área <br /> da informática e
       </main>
       <main>
         <h1 className='titulo-projetoss'>Viagens IFMS</h1>
-        <div className='blocoviagem'>
- <div><img className='viagem' src={fortaleza} alt="" /></div>
- <div><img className='viagem' src={foz} alt="" /></div>
+        <div className='blocoviagens'>
+ <div className='bloco-viagem'>
+  <img className='viagem' src={fortaleza} alt="" />
+<button className='acesse'>
+Ver
+</button>
+  </div>
+
+ <div className='bloco-viagem'>
+  <img className='viagem' src={foz} alt="" />
+  <button className='acesse'>
+Ver
+  </button>
+  </div>
+
  </div>
 </main>
 
