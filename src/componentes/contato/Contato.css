@@ -1,0 +1,19 @@
+.formulario{
+width: 500px;
+height: 600px;
+padding: 20px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.area-form{
+    display: flex;
+justify-content: center;
+align-items: center;
+background-color: #525057
+}
+
+.fotominha{
+    width: 350px;
+    height: auto;
+}
