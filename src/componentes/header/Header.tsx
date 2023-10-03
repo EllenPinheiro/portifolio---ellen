@@ -1,7 +1,6 @@
 import './Header.css'
 import EllenLogo from '..//img/ellen-logo.png';
-import Link from './link/Link'
-
+import LinkNav from '..//linknav/LinkNav'
 function Header(){
     return (
         <header>
@@ -12,16 +11,16 @@ function Header(){
                 <ul>
            
                     <li>
-                    <Link texto='Home'/>
+                    <LinkNav url="/" texto='Home'/>
                     </li>
                     <li>
-                    <Link texto='Trabalhos'/>
+                    <LinkNav url="/noticias" texto='Trabalhos'/>
                     </li>
                     <li>
-                    <Link texto='Sobre'/>
+                    <LinkNav url="/sobre" texto='Sobre'/>
                     </li>
                     <li>
-                    <Link texto='Contato'/>
+                    <LinkNav url="/contato" texto='Contato'/>
                     </li>
                 </ul>
             </nav>
