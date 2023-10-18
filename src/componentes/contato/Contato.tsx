@@ -1,41 +1,67 @@
-import { useState } from 'react'
-import './Contato.css'
-import EuLinda from '..//img/eulinda.webp'
-export default function Contato() {
-    
-    const []=useState("")
+import { useState } from 'react';
+import './Contato.css';
 
-   
-    return (
-        <>
-        <main className='area-form'>
-            <div>
-                <img className='fotominha' src={EuLinda} alt="" />
-            </div>
-            
+export default function Contato() {
+  const [nome, setNome] = useState('');
+  const [email, setEmail] = useState('');
+  const [telefone, setTelefone] = useState('');
+  const [mensagem, setMensagem] = useState('');
+
+  return (
+    <>
+      <main className='area-form'>
+        <div className='fotominha'></div>
+
         <form className='formulario' action="/contato">
-        <h1 className='titulo'>Olá! Entre em contato comigo por aqui :)</h1>
-            <div>
+          <div>
             <label htmlFor="nome">Nome:</label>
-            <input type="text" placeholder='Digite seu nome!' required/>
-            </div>
-            <div>
+            <input
+              type="text"
+              placeholder='Digite seu nome!'
+              required
+              value={nome}
+              onChange={(e) => setNome(e.target.value)}
+            />
+          </div>
+          <div>
             <label htmlFor="email">E-mail:</label>
-            <input type="email" placeholder='Informe seu e-mail' required/>
-            </div>
-            <div className='final-dapartedecima'>
+            <input
+              type="email"
+              placeholder='Informe seu e-mail'
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </div>
+          <div className='final-dapartedecima'>
             <label htmlFor="telefone">Telefone:</label>
-            <input type="tel" id="phone" name="phone" pattern="\(\d{2}\) \d{5}-\d{4}" required placeholder='Digite no formato: (xx) xxxxx-xxxx'/>
-            </div>
-            <label htmlFor="texto">Digite sua mensagem:</label>
-            <div>
-            <input className='mensagem' type="text" placeholder='Fale comigo!' required/>
-            </div>
-            <div className="button">
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="\(\d{2}\) \d{5}-\d{4}"
+              required
+              placeholder='Digite no formato: (xx) xxxxx-xxxx'
+              value={telefone}
+              onChange={(e) => setTelefone(e.target.value)}
+            />
+          </div>
+          <label htmlFor="texto">Digite sua mensagem:</label>
+          <div>
+            <input
+              className='mensagem'
+              type="text"
+              placeholder='Fale comigo!'
+              required
+              value={mensagem}
+              onChange={(e) => setMensagem(e.target.value)}
+            />
+          </div>
+          <div className="button">
             <button className='button' type="submit">Enviar</button>
-            </div>
+          </div>
         </form>
-        </main>
-        </>
-    )
+      </main>
+    </>
+  );
 }
